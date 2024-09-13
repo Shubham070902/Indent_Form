@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indent Form</title>
+
+    <!-- Font Awesome CDN for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333;
+        }
+
+        form {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff; /* White background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0073e6; /* Blue color for headings */
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #0073e6; /* Blue color for headings */
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        h5 {
+            color: #555;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        pre {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            border: 1px solid #ddd;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="file"],
+        select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #0073e6; /* Blue background for the button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005bb5; /* Darker blue on hover */
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .social-media a:hover {
+            color: #0073e6;
+        }
+
+        .social-media i {
+            margin-right: 8px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            form {
+                width: 95%;
+            }
+
+            input[type="submit"] {
+                font-size: 16px;
+            }
+
+            label, input, select, pre {
+                font-size: 14px;
+            }
+
+            h1, h3, h5 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://script.google.com/macros/s/AKfycbyIaVh8GP2r3afjI5w_yIJjvDqIIEohCFuyc0u8PWv0Bl5h__sTXkdIHQnLH7ixsDEjMg/exec" method="post">
+        <h1>VerveBridge Stipend Based Internship Program</h1>
+        <h5>Fill the below form carefully for internship.</h5>
+
+        <pre>Internship Program Details:
+Duration: 4 weeks + (4 weeks stipend based)
+Last Date to Register: 15th Sep 2024
+Selection Email to Complete Acceptance will be sent: 10th - 15th Sep 2024
+Complete Acceptance before: 15th Sep 2024
+Offer Letters will be Issued: 10th - 15th Sep 2024
+Internship Starting Date: 15th Sep 2024 (Please apply only if you are available to start the internship on the specified date.)
+Eligibility: Any Student who are willing to learn new things
+Location: Work from Home 
+Perks: Offer letter & Completion Certificate
+        </pre>
+
+        <pre>Internship Domains:
+Java, Data Science, Machine Learning, Python, Full-Stack Development, Web Development, Front-End Development,
+Big Data, Blockchain, Business Intelligence, Computer Vision, Deep Learning, Deep Reinforcement Learning,
+React Js Developer, Generative AI, NLP, UI/UX, Virtual Reality, Data Analytics, Artificial Intelligence, 
+C Programming, C++ Programming
+
+Filling this form for multiple internship domains or more than once may reject your application.
+
+Note: These internships are educational in nature, paid and stipend based(up to 3k).
+
+Thanks</pre>
+<h3>Personal Details</h3>
+
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email Id</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="contactNumber">Contact Number</label>
+        <input type="number" id="contactNumber" name="contactNumber" required>
+
+        <label for="whatsappNumber">Whatsapp Number</label>
+        <input type="number" id="whatsappNumber" name="whatsappNumber" required>
+
+        <label for="cityName">City Name</label>
+        <input type="text" id="cityName" name="cityName" required>
+
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" required>
+
+        <label for="fileUpload">Upload your resume:</label>
+        <input type="file" id="fileUpload" name="fileUpload" required>
+
+        <h1>Education Details</h1>
+
+        <label for="collegeName">College Name</label>
+        <input type="text" id="collegeName" name="collegeName" required>
+
+        <label for="course">What course have you done? (e.g., B.Tech, BCA, MCA)</label>
+        <input type="text" id="course" name="course" required>
+
+        <label for="specialization">Any Specialization (e.g., CSE, IT, CE)</label>
+        <input type="text" id="specialization" name="specialization" required>
+
+        <label for="passingYear">What is your passing year?</label>
+        <input type="number" id="passingYear" name="passingYear" required maxlength="4">
+
+        <label for="developmentField">Choose a field:</label>
+        <select id="developmentField" name="developmentField" onchange="showOtherField(this)">
+            <option value="">-- Select an option --</option>
+            <option value="Full Stack Development">Full Stack Development</option>
+            <option value="Frontend Development">Frontend Development</option>
+            <option value="Web Development">Web Development</option>
+            <option value="React JS Development">React JS Development</option>
+            <option value="Data Analytics">Data Analytics</option>
+            <option value="Business Intelligence">Business Intelligence</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="Python Development">Python Development</option>
+            <option value="Java Development">Java Development</option>
+            <option value="C Programming">C Programming</option>
+            <option value="C++ Programming">C++ Programming</option>
+            <option value="ML">ML</option>
+            <option value="NLP">NLP</option>
+            <option value="Computer Vision">Computer Vision</option>
+            <option value="Deep Learning">Deep Learning</option>
+            <option value="Generative AI">Generative AI</option>
+            <option value="Virtual Reality">Virtual Reality</option>
+            <option value="Big Data">Big Data</option>
+            <option value="UI/UX">UI/UX</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <!-- Hidden input field for "Other" option -->
+        <div id="otherField" style="display:none;">
+            <label for="otherText">Please specify:</label>
+            <input type="text" id="otherText" name="otherText" placeholder="Enter your option">
+        </div>
+
+        <h3>Follow Us on Social Media</h3>
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Script to show the "Other" input field -->
+    <script>
+        function showOtherField(select) {
+            const otherField = document.getElementById('otherField');
+            if (select.value === 'Other') {
+                otherField.style.display = 'block';
+            } else {
+                otherField.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
